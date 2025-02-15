@@ -6,7 +6,7 @@ Summary:	Simple module to parse ISO 8601 dates
 URL:		https://pypi.org/project/iso8601/
 License:	MIT
 Group:		Development/Python
-BuildRequires:	python
+BuildRequires:	python%{pyver}dist(poetry-core)
 BuildSystem:	python
 BuildArch:	noarch
 
